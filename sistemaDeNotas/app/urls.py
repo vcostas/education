@@ -34,8 +34,8 @@ urlpatterns = [
                   url(r'^reset/done/$',
                       PasswordResetCompleteView.as_view(template_name='registration/reset_done.html')),
 
-                      # adding url path for sitemessage app
-                      path('sitemessage/', include('sitemessage.urls')),
+                      # adding url path for correo app
+                      path('correo/', include('correo.urls')),
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:

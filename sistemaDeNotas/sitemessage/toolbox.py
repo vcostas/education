@@ -11,7 +11,7 @@ from django.conf.urls import url
 from sitemessage.models import Message, Dispatch, Subscription
 from sitemessage.exceptions import UnknownMessengerError, UnknownMessageTypeError
 from sitemessage.messages.plain import PlainTextMessage
-from sitemessage.views import mark_read, unsubscribe
+from .views import mark_read, unsubscribe
 
 # NB: Some of these unused imports are exposed as part of toolbox API.
 from .messages import register_builtin_message_types

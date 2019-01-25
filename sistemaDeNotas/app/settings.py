@@ -70,6 +70,7 @@ INSTALLED_APPS = (
     'adm',
     'memcache',
     'sitemessage.apps.SitemessageConfig',
+    'correo.apps.CorreoConfig',
 )
 
 

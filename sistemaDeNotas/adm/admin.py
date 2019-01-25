@@ -6,3 +6,4 @@ from guardian.models import GroupObjectPermission, UserObjectPermission
 admin.site.register(Permission)
 admin.site.register(GroupObjectPermission)
 admin.site.register(UserObjectPermission)
+admin.site.register(correo)
