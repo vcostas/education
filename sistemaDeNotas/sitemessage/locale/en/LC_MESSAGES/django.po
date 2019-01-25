@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-10 19:06+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin.py:48
+msgid "Make selected dispatches pending"
+msgstr ""
+
+#: config.py:9
+msgid "Messaging"
+msgstr ""
+
+#: messages/base.py:35
+msgid "Notification"
+msgstr ""
+
+#: messages/email.py:9
+msgid "Email notification"
+msgstr ""
+
+#: messages/plain.py:13
+msgid "Text notification"
+msgstr ""
+
+#: messengers/facebook.py:33
+msgid "Facebook"
+msgstr ""
+
+#: messengers/smtp.py:14
+msgid "E-mail"
+msgstr ""
+
+#: messengers/smtp.py:99
+msgid "No Subject"
+msgstr ""
+
+#: messengers/telegram.py:19
+msgid "Telegram"
+msgstr ""
+
+#: messengers/twitter.py:15
+msgid "Tweet"
+msgstr ""
+
+#: messengers/vkontakte.py:33
+msgid "VKontakte"
+msgstr ""
+
+#: messengers/xmpp.py:16
+msgid "XMPP"
+msgstr ""
+
+#: models.py:35
+#, python-format
+msgid "Value `%r` is not a valid context."
+msgstr ""
+
+#: models.py:62 models.py:173 models.py:362 models.py:377
+msgid "Time created"
+msgstr ""
+
+#: models.py:65
+msgid "Sender"
+msgstr ""
+
+#: models.py:68 models.py:380
+msgid "Message class"
+msgstr ""
+
+#: models.py:69 models.py:380
+msgid "Message logic class identifier."
+msgstr ""
+
+#: models.py:71
+msgid "Message context"
+msgstr ""
+
+#: models.py:74
+msgid "Priority"
+msgstr ""
+
+#: models.py:75
+msgid ""
+"Number describing message sending priority. Messages with different "
+"priorities can be sent with different periodicity."
+msgstr ""
+
+#: models.py:79
+msgid "Dispatches ready"
+msgstr ""
+
+#: models.py:80
+msgid ""
+"Indicates whether dispatches for this message are already formed and ready "
+"to delivery."
+msgstr ""
+
+#: models.py:83 models.py:178
+msgid "Message"
+msgstr ""
+
+#: models.py:84
+msgid "Messages"
+msgstr ""
+
+#: models.py:155
+msgid "Pending"
+msgstr ""
+
+#: models.py:156
+msgid "Processing"
+msgstr ""
+
+#: models.py:157
+msgid "Sent"
+msgstr ""
+
+#: models.py:158
+msgid "Error"
+msgstr ""
+
+#: models.py:159
+msgid "Failed"
+msgstr ""
+
+#: models.py:166
+msgid "Unread"
+msgstr ""
+
+#: models.py:167
+msgid "Read"
+msgstr ""
+
+#: models.py:176
+msgid "Time dispatched"
+msgstr ""
+
+#: models.py:176
+msgid "Time of the last delivery attempt."
+msgstr ""
+
+#: models.py:181 models.py:383
+msgid "Messenger"
+msgstr ""
+
+#: models.py:181 models.py:383
+msgid "Messenger class identifier."
+msgstr ""
+
+#: models.py:184 models.py:386
+msgid "Recipient"
+msgstr ""
+
+#: models.py:186 models.py:388
+msgid "Address"
+msgstr ""
+
+#: models.py:186 models.py:388
+msgid "Recipient address."
+msgstr ""
+
+#: models.py:189
+msgid "Retry count"
+msgstr ""
+
+#: models.py:189
+msgid "A number of delivery retries has already been made."
+msgstr ""
+
+#: models.py:191
+msgid "Message cache"
+msgstr ""
+
+#: models.py:194
+msgid "Dispatch status"
+msgstr ""
+
+#: models.py:196
+msgid "Read status"
+msgstr ""
+
+#: models.py:199 models.py:363
+msgid "Dispatch"
+msgstr ""
+
+#: models.py:200
+msgid "Dispatches"
+msgstr ""
+
+#: models.py:364
+msgid "Text"
+msgstr ""
+
+#: models.py:367
+msgid "Dispatch error"
+msgstr ""
+
+#: models.py:368
+msgid "Dispatch errors"
+msgstr ""
+
+#: models.py:391
+msgid "Subscription"
+msgstr ""
+
+#: models.py:392
+msgid "Subscriptions"
+msgstr ""
+
+#: templates/sitemessage/messages/_base.html:21
+msgid "You can unsubscribe from this list using"
+msgstr ""
+
+#: templates/sitemessage/messages/_base.html:21
+msgid "this link"
+msgstr ""

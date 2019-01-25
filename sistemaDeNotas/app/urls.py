@@ -1,5 +1,5 @@
 from django.views.generic import TemplateView
-
+from django.urls import include, path
 from app import settings
 from app.views.LoginView import LoginView
 from app.views.LogOutView import LogOutView
@@ -33,6 +33,9 @@ urlpatterns = [
                       PasswordResetConfirmView.as_view(template_name='registration/password_reset_confirm.html')),
                   url(r'^reset/done/$',
                       PasswordResetCompleteView.as_view(template_name='registration/reset_done.html')),
+
+                      # adding url path for sitemessage app
+                      path('sitemessage/', include('sitemessage.urls')),
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:

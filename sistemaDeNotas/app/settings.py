@@ -63,13 +63,13 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.humanize',
     'django_mysql',
-    'djangobower',
     'guardian',
     'app',
     'bootstrap3',
     'security',
     'adm',
     'memcache',
+    'sitemessage.apps.SitemessageConfig',
 )
 
 
@@ -117,9 +117,9 @@ WSGI_APPLICATION = 'app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'branch_master',
+        'NAME': 'fameghino',
         'USER': 'root',
-        'PASSWORD': 'root',
+        'PASSWORD': 'Karizma@123',
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'OPTIONS': {
