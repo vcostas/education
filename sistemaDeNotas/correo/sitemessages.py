@@ -8,6 +8,6 @@ register_messenger_objects(MyMessenger())
 
 # 2. Our smtp messenger
 register_messenger_objects(
-    SMTPMessenger('user1@host.com', 'user1', 'user1password', host='smtp.host.com', use_tls=True),
+    SMTPMessenger('veerplaying@gmail.com', 'Veer', 'Buenosaires@123', host='smtp.gmail.com', use_tls=True),
     )
 
