@@ -3,7 +3,7 @@ astroid==2.1.0
 certifi==2018.8.24
 cffi==1.11.5
 chardet==3.0.4
-cryptography==2.3
+cryptography==3.2
 Django==2.1
 django-adminlte2==0.4.1
 django-bootstrap3==10.0.1
