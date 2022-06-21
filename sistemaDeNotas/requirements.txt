@@ -28,7 +28,7 @@ mccabe==0.6.1
 mo-future==2.18.18240
 moz-sql-parser==2.18.18240
 mysql-connector-python==8.0.12
-numpy==1.13.3
+numpy==1.22.0
 olefile==0.45.1
 openpyxl==2.5.5
 pandas==0.23.4
